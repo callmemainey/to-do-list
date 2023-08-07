@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11e2 - To Do List From Scratch</title>
+  <link rel="stylesheet" href="./11e2-Todo-List-From-Scratch.css">
+</head>
+<body>
+  <div class="body-container">
+    <h1>To Do List</h1>
+    <div class="todo-grid"> 
+      <input class="js-todo-due-date-input date" type="date">
+      <input class="js-todo-input" placeholder="To do..." onkeydown="pressEnter();" type="text">      
+      <button class="add" onclick="addTodo()">Add</button>
+      <button class="clear" onclick="clearHTML();">Clear Memory</button>
+    </div>
+    <div class="js-added-todo-grid added-todo-grid">
+
+    </div>
+  </div>
+  <script src="./11e2-Todo-List-From-Scratch.js"></script>
+</body>
+</html>
